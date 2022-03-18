@@ -1,0 +1,32 @@
+body {
+  /*background-color: #eafee8;*/
+  background-color: dimgray;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 50vw;
+}
+
+tr {
+  border-bottom: 1px solid #000;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+.bold-text {
+  font-weight: bolder;
+}
+
+.sup {
+  position: relative;
+  bottom: 1ex;
+  font-size: 70%;
+}
+
+.latex {
+  transform: scale(0.03);
+}

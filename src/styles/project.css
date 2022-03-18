@@ -1,0 +1,30 @@
+.project-img-container {
+  border-radius: 10px;
+}
+
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70vw;
+  justify-content: space-evenly;
+}
+
+.project-container article {
+  width: 40%;
+  height: auto;
+}
+
+.project-container img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: attr(width)/attr(height);
+  border-radius: 8px;
+}
+
+.span-right {
+  float: right;
+}
+
+.span-left {
+  float: left;
+}
