@@ -11,15 +11,15 @@ import { SiExpress, SiApache, SiMysql, SiPhp, SiFlask, SiNginx, SiDocker } from 
 
 function Projects() {
   return (
-    <div>
+    <div className='page'>
       <section>
         <header><h1>Projects</h1></header>
-        <p>Here are my very own projects that I've made.</p>
+        <p>Here are my very own projects that I have made.</p>
         <div className='project-container'>
           <article>
             <header><h2><span className='span-left'>Log app</span><span className='span-right'><DiMongodb /><SiExpress /><FaReact /><FaNodeJs /></span></h2></header>
             <div className='project-img-container'><a href="https://logmaker.herokuapp.com" target="_blank" rel="noopener noreferrer" ><img src={mern} alt='MERN app' /></a></div>
-            <p>Description: I wanted to see how a react-express front-end worked with a nodejs back-end, connected to a mongodb. Also learned how to code a simple login function, how to properly store passwords and so on.</p>
+            <p>Description: I wanted to see how a react-express front-end worked with a nodejs back-end, connected to mongodb. Also learned how to code a simple login function and how to properly store passwords.</p>
           </article>
           <article>
             <header><h2><span className='span-left'>Previous portfolio</span><span className='span-right'><FaHtml5 /><FaCss3 /><FaJsSquare /></span></h2></header>
@@ -27,7 +27,7 @@ function Projects() {
             <p>Description: I created this as part of a final exercise in a web development course at Stockholm University in 2021.</p>
           </article>
           <article>
-            <header><h2><span className='span-left'>Life Science Validation Helper</span><span className='span-right'><FaLinux /><SiApache /><SiMysql /><SiPhp /></span></h2></header>
+            <header><h2><span className='span-left'>Validation Helper</span><span className='span-right'><FaLinux /><SiApache /><SiMysql /><SiPhp /></span></h2></header>
             <div className='project-img-container'><img src={lamp} alt='LAMP Validation' /></div>
             <p>Description: During one of my proffessional assignments as a validation engineer, I created a simple database in which I could store and later easily compare different technical and user requirements for a system handeling solvent media. This is privatly hosted and no link is provided because of possible company restrictions.</p>
           </article>

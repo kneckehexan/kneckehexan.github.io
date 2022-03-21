@@ -1,17 +1,17 @@
 .assignments-table tr td:first-child {
-  width: 8em;
-  min-width: 8em;
-  max-width: 8em;
+  width: 6em;
+  min-width: 6em;
+  max-width: 6em;
 }
 
 .employment-table tr td:first-child {
-  width: 8em;
-  min-width: 8em;
-  max-width: 8em;
+  width: 6em;
+  min-width: 6em;
+  max-width: 6em;
 }
 
 .education-table tr td:first-child {
-  width: 8em;
-  min-width: 8em;
-  max-width: 8em;
+  width: 6em;
+  min-width: 6em;
+  max-width: 6em;
 }

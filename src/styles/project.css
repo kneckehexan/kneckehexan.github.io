@@ -5,13 +5,14 @@
 .project-container {
   display: flex;
   flex-flow: row wrap;
-  width: 70vw;
+  width: 95vw;
   justify-content: space-evenly;
 }
 
 .project-container article {
-  width: 40%;
+  width: 500px;
   height: auto;
+  padding: 1rem;
 }
 
 .project-container img {

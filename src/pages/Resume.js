@@ -3,7 +3,7 @@ import '../styles/resume.css'
 
 function Resume() {
   return (
-    <div>
+    <div className='page'>
       <section>
         <header><h1>Resumé</h1></header>
         <article>
@@ -99,83 +99,87 @@ function Resume() {
         <article>
           <header><h2>Education</h2></header>
           <table className='education-table'>
-            <tr>
-              <td>2007 - 2013</td>
-              <td><span className='bold-text'>Mechanical Engineering (M.Sc.)</span>, Faculty of Engineering at Lund University</td>
-            </tr>
-            <tr>
-              <td>2020</td>
-              <td><span className='bold-text'>Web Development I</span>, Stockholm University</td>
-            </tr>
-            <tr>
-              <td>2020</td>
-              <td><span className='bold-text'>Algorithms and Data Structures</span>, Uppsala University</td>
-            </tr>
-            <tr>
-              <td>2020</td>
-              <td><span className='bold-text'>Object Oriented Programming with Java</span>, Uppsala University</td>
-            </tr>
-            <tr>
-              <td>2019</td>
-              <td><span className='bold-text'>Scientific Commputing I</span>, Uppsala University</td>
-            </tr>
-            <tr>
-              <td>2004</td>
-              <td><span className='bold-text'>Mathematics Alfa</span>, Faculty of Engineering at Lund University</td>
-            </tr>
-            <tr>
-              <td>2001 - 2004</td>
-              <td><span className='bold-text'>Science Programme</span>, Katedralskolan (upper secondary school), Lund</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>2007 - 2013</td>
+                <td><span className='bold-text'>Mechanical Engineering (M.Sc.)</span>, Faculty of Engineering at Lund University</td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td><span className='bold-text'>Web Development I</span>, Stockholm University</td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td><span className='bold-text'>Algorithms and Data Structures</span>, Uppsala University</td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td><span className='bold-text'>Object Oriented Programming with Java</span>, Uppsala University</td>
+              </tr>
+              <tr>
+                <td>2019</td>
+                <td><span className='bold-text'>Scientific Commputing I</span>, Uppsala University</td>
+              </tr>
+              <tr>
+                <td>2004</td>
+                <td><span className='bold-text'>Mathematics Alfa</span>, Faculty of Engineering at Lund University</td>
+              </tr>
+              <tr>
+                <td>2001 - 2004</td>
+                <td><span className='bold-text'>Science Programme</span>, Katedralskolan (upper secondary school), Lund</td>
+              </tr>
+            </tbody>
           </table>
         </article>
         <article>
           <header><h2>Certificates &amp; Courses</h2></header>
           <table className='courses-table'>
-            <tr>
-              <td>CS50x</td>
-              <td><a href="https://cs50.harvard.edu/certificates/9ad2c518-f268-46d3-bec0-4bc159616749" title='Link to CS50x certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Responsive Web Design</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/responsive-web-design" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>JavaScript Algorithms and Data Structures</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/javascript-algorithms-and-data-structures" title='Link to  certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Front End Development Libraries</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/front-end-development-libraries" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Data Visualization</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/data-visualization" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Back End Development and API's</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/back-end-development-and-apis" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Quality Assurance</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/quality-assurance-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Scientific Computing with Python</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/scientific-computing-with-python-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Data Analysis with Python</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/data-analysis-with-python-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Information Security</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/information-security-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
-            <tr>
-              <td>Machine Learning with Python</td>
-              <td><a href="https://www.freecodecamp.org/certification/ptunbjer/machine-learning-with-python-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>CS50x</td>
+                <td><a href="https://cs50.harvard.edu/certificates/9ad2c518-f268-46d3-bec0-4bc159616749" title='Link to CS50x certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Responsive Web Design</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/responsive-web-design" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>JavaScript Algorithms and Data Structures</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/javascript-algorithms-and-data-structures" title='Link to  certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Front End Development Libraries</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/front-end-development-libraries" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Data Visualization</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/data-visualization" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Back End Development and APIs</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/back-end-development-and-apis" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Quality Assurance</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/quality-assurance-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Scientific Computing with Python</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/scientific-computing-with-python-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Data Analysis with Python</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/data-analysis-with-python-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Information Security</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/information-security-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+              <tr>
+                <td>Machine Learning with Python</td>
+                <td><a href="https://www.freecodecamp.org/certification/ptunbjer/machine-learning-with-python-v7" title='Link to certificate' target='_blank' rel='noopener noreferrer'>Link to Certificate</a></td>
+              </tr>
+            </tbody>
           </table>
         </article>
       </section>

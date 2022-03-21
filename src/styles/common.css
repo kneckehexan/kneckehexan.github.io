@@ -1,12 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora', sans-serif;
+}
+
+/*.nav {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+}*/
+
 body {
-  /*background-color: #eafee8;*/
-  background-color: dimgray;
+  background-color: #eafee8;
+  /*background-color: dimgray;*/
+}
+
+section {
+  line-height: 1.6;
+  font-size: x-large;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+h2 {
+  font-size: x-large;
 }
 
 table {
   border-collapse: collapse;
   table-layout: fixed;
-  width: 50vw;
+  width: 80vw;
 }
 
 tr {
@@ -29,4 +61,17 @@ td {
 
 .latex {
   transform: scale(0.03);
+}
+
+.page {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  height: 90vh;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    font-size: medium;
+  }
 }
