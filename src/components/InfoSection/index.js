@@ -15,17 +15,19 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to='home'
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact={true}
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}>
-                    {buttonLabel}
-                  </Button>
+                  { buttonLabel !== '' ? (
+                    <Button
+                      to='home'
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact={true}
+                      offset={-80}
+                      primary={primary ? 1 : 0}
+                      dark={dark ? 1 : 0}>
+                      {buttonLabel}
+                    </Button>
+                  ) : null }
                 </BtnWrap>
               </TextWrapper>
             </Column1>

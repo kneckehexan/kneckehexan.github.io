@@ -3,10 +3,10 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'History',
+  topLine: 'About',
   headLine: 'Project Manager, Design Engineer',
-  description: 'Currently a working as senior Life Science consultant at a employee owned company in Stockholm, Sweden, founded in 1943.',
-  buttonLabel: 'Resumé',
+  description: 'Currently a working as senior Life Science consultant at an employee owned company in Stockholm, Sweden, founded in 1943.',
+  buttonLabel: '',
   imgStart: false,
   // eslint-disable-next-line no-undef
   img: require('../../img/svg-engineer.svg').default,
