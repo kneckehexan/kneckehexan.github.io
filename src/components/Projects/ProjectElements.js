@@ -7,8 +7,8 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*background: #010606;*/
-  background: #f9f9f9;
+  background: #010606;
+  /*background: #f9f9f9;*/
   padding-bottom: 20px;
 `
 
@@ -37,13 +37,13 @@ export const ProjectsWrapper = styled.div`
 
 export const ProjectBtn = styled.a`
   text-decoration: none;
-  /*color: #010606;*/
-  color: #f9f9f9;
+  color: #010606;
+  /*color: #f9f9f9;*/
 `
 
 export const ProjectsCard = styled.div`
-  /*background: #fff;*/
-  background: #010606;
+  background: #fff;
+  /*background: #010606;*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -65,13 +65,21 @@ export const ProjectsIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
+  border-radius: 10px;
+  border: 3px solid #010606;
 `
 
 export const ProjectsH1 = styled.h1`
-  font-size: 2.5rem;
+  /*font-size: 2.5rem;*/
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   /*color: #fff;*/
-  color: #010606;
-  margin-bottom: 64px;
+  /*color: #010606;*/
+  color: #01bf71;
+  margin-bottom: 16px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
