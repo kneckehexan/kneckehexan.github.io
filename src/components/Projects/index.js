@@ -31,11 +31,18 @@ const Projects = () => {
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
+      backgroundColor: '#010606',
+      borderRadius: '10px'
     },
   };
-  ////const afterModalOpen = () => {
-  ////  null;
-  ////}
+
+ const afterModalOpen = () => {
+   null;
+ }
+
+  const afterModalClose = () => {
+    null;
+  }
 
   const closeModal = () => {
     setModal(false);
@@ -75,7 +82,13 @@ const Projects = () => {
           </ProjectsCard>
         </ProjectBtn>
       </ProjectsWrapper>
-      <Modal isOpen={modal} onRequestClose={closeModal} style={customStyles}>
+      <Modal isOpen={modal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        onAfterOpen={afterModalOpen}
+        onAfterClose={afterModalClose}
+        closeTimeoutMS={1000}
+      >
         {modalScreen === 1 && 
           <ProjectModal {...modalLog} />
         }
