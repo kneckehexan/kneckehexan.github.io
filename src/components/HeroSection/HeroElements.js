@@ -84,6 +84,38 @@ export const HeroP = styled.p`
   }
 `
 
+export const HeroContact = styled.div`
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  height: 20px;
+  color: #fff;
+`
+
+export const HeroContactItem = styled.a`
+  text-decoration: none;
+  font-size: 36px;
+
+  &:link {
+    color: #fff;
+  }
+
+  &:visited{
+    color: #fff;
+  }
+
+  &:hover{
+    color: #fff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &:active{
+    color: #fff;
+  }
+`
+
 export const HeroBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
