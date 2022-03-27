@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e10f6b5.css",
+    "main.js": "/static/js/main.2cd1b15a.js",
+    "static/media/video-h264-medium.mp4": "/static/media/video-h264-medium.1283988623e7243c1f3d.mp4",
+    "static/media/PhilipTunbjer_CV_ENG_extended.pdf": "/static/media/PhilipTunbjer_CV_ENG_extended.95e92ba60906ead2a377.pdf",
+    "static/media/png-prevport.png": "/static/media/png-prevport.fb2ececc1c9e652908a6.png",
+    "static/media/png-valhelp.png": "/static/media/png-valhelp.63386e68cabcb9ad1b67.png",
+    "static/media/svg-engineer.svg": "/static/media/svg-engineer.a3a5e33fb5d6929a80f592f701a986cb.svg",
+    "static/media/png-cvgen.png": "/static/media/png-cvgen.ef1eac94a3a0fce3e157.png",
+    "static/media/png-logapp.png": "/static/media/png-logapp.67663beae714375f690c.png",
+    "static/media/svg-programmer2.svg": "/static/media/svg-programmer2.938c56a2ab465c65c1f3fd5c897a9585.svg",
+    "static/media/svg-email.svg": "/static/media/svg-email.af4ba1eecb7ddf36c7f5a4e8d8866fa3.svg",
+    "static/media/LaTeX_logo.svg": "/static/media/LaTeX_logo.590b7c86316f22c66492e197dd5897af.svg",
+    "index.html": "/index.html",
+    "main.1e10f6b5.css.map": "/static/css/main.1e10f6b5.css.map",
+    "main.2cd1b15a.js.map": "/static/js/main.2cd1b15a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e10f6b5.css",
+    "static/js/main.2cd1b15a.js"
+  ]
+}
