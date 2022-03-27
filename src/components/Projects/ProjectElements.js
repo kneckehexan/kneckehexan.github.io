@@ -2,18 +2,26 @@ import styled from 'styled-components'
 //import {Link as LinkR} from 'react-router-dom'
 
 export const ProjectsContainer = styled.div`
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #010606;
-  /*background: #f9f9f9;*/
-  padding-bottom: 20px;
+  color: #fff;
+  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+
+  @media screen and (max-width: 768px) {
+    padding: 100px 0;
+  }
 `
 
 export const ProjectsWrapper = styled.div`
-  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 34px;
+  justify-content: center;
+  /*max-width: 100vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -32,13 +40,37 @@ export const ProjectsWrapper = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: auto;
     padding: 0 20px;
-  }
+  }*/
 `
 
 export const ProjectBtn = styled.a`
   text-decoration: none;
   color: #010606;
   /*color: #f9f9f9;*/
+`
+
+export const TextWrapper = styled.div`
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+`
+
+export const Topline = styled.div`
+  color: #01bf71;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+`
+
+export const ProjectsContent = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1100px;
+  row-gap: 2rem;
+  column-gap: 2%;
+  justify-content: space-evenly;
 `
 
 export const ProjectsCard = styled.div`

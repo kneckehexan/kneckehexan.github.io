@@ -18,7 +18,7 @@ export const ass3 = {
   assignmentTitle: 'Design Engineer',
   assignmentDates: '2014',
   assignmentClient: 'Crucell Sweden AB, via PRC Engineering AB',
-  assignmentDescription: 'Produce an updated P&amp;ID-scheme using AutoCad for the part of the plant that handles steam and condensate.',
+  assignmentDescription: 'Produce an updated P&ID-schematic using AutoCad for the part of the plant that handles steam and condensate.',
   lightText: false
 }
 

@@ -10,16 +10,23 @@ export const EducationWrapper = styled.div`
 export const EducationCard = styled.div`
   display: grid;
   grid-template-areas:
-    "date title"
-    "date description";
-  grid-column-gap: 20px;
-  grid-template-columns: 1fr 3fr;
+    "date title description";
+  grid-column-gap: 10px;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
   width: 60vw;
   min-width: 150px;
   background: #01bf71;
   border: 3px solid #01bf71;
   border-radius: 1px 20px 1px;
   padding: 10px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-areas:
+      "date title"
+      "date description";
+    grid-template-columns: 1fr 3fr;
+    width: calc(100vw - 3rem);
+  }
 `
 
 export const EducationTitle = styled.h4`
@@ -29,8 +36,9 @@ export const EducationTitle = styled.h4`
   font-weight: 600;
   color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
-  @media screen and (max-width: 480px) {
-    font-size: 16px;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    margin-bottom: 2px;
   }
 `
 
@@ -40,8 +48,8 @@ export const EducationDates = styled.div`
   font-weight: normal;
   color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
-  @media screen and (max-width: 480px) {
-    font-size: 12px;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
   }
 `
 
@@ -49,9 +57,9 @@ export const EducationDescription = styled.p`
   grid-area: description;
   font-size: 16px;
   font-weight: normal;
-  color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
-  @media screen and (max-width: 480px) {
-    font-size: 11px;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+    margin-bottom: 2px;
   }
 `

@@ -19,17 +19,20 @@ export const CertificateCard = styled.div`
   border: 3px solid #01bf71;
   border-radius: 1px 20px 1px;
   padding: 10px;
+
+  @media screen and (max-width: 768px) {
+    width: calc(100vw - 3rem);
+  }
 `
 
 export const CertificateTitle = styled.h4`
   grid-area: title;
-  margin-bottom: 12px;
   font-size: 18px;
   font-weight: 600;
   color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `
 

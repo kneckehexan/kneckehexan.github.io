@@ -16,3 +16,9 @@
 .ReactModal__Html--open {
   overflow: hidden;
 }
+
+.ReactModal__Content {
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}

@@ -1,14 +1,18 @@
 import React from 'react'
 import {ModalContainer, ModalWrapper, ModalRow, ModalCol1, ModalCol2, ModalTextWrap, ModalTopLine, ModalHeading, ModalSubtitle, ModalImgWrap, ModalImg, ModalBtnWrap } from './ModalElements'
 import { ButtonA } from '../../ButtonElements'
+import { Icon, CloseIcon } from '../../Sidebar/SidebarElements'
 
 // eslint-disable-next-line react/prop-types
-const ProjectModal = ({img, alt, lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, primary, dark, href}) => {
+const ProjectModal = ({img, alt, lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, primary, dark, href, closeModal}) => {
 
   return (
     <>
       <ModalContainer lightBg={lightBg} id={id}>
         <ModalWrapper>
+          <Icon onClick={closeModal}>
+            <CloseIcon />
+          </Icon>
           <ModalRow imgStart={imgStart}>
             <ModalCol1>
               <ModalTextWrap>

@@ -88,10 +88,6 @@ const Resume = () => {
               <Certificate {...cer11}/>
             </ResumeItems>
           </ResumeSection>
-            {/*<Employment />
-            <Assignments />
-            <Certificates />
-  <Courses />*/}
         </ResumeWrapper>
       </ResumeContainer>
     </>

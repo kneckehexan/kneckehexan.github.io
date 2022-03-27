@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Modal from 'react-modal'
-import {ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectBtn, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP} from './ProjectElements'
+import {ProjectsContainer, ProjectsWrapper, ProjectBtn, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectsContent, Topline} from './ProjectElements'
 import Icon1 from '../../img/png-logapp.png'
 import Icon2 from '../../img/png-prevport.png'
 import Icon3 from '../../img/png-valhelp.png'
@@ -36,9 +36,11 @@ const Projects = () => {
     },
   };
 
- const afterModalOpen = () => {
-   null;
- }
+  Modal.setAppElement('#root');
+
+  const afterModalOpen = () => {
+    null;
+  }
 
   const afterModalClose = () => {
     null;
@@ -50,59 +52,66 @@ const Projects = () => {
   }
 
   return (
-    <ProjectsContainer id='projects'>
-      <ProjectsH1>Personal Projects</ProjectsH1>
-      <ProjectsWrapper>
-        <ProjectBtn >
-          <ProjectsCard onClick={() => openModal(1)}>
-            <ProjectsIcon src={Icon1} />
-            <ProjectsH2>Log App</ProjectsH2>
-            <ProjectsP><DiMongodb /><SiExpress /><FaReact /><FaNodeJs /></ProjectsP>
-          </ProjectsCard>
-        </ProjectBtn>
-        <ProjectBtn >
-          <ProjectsCard onClick={() => openModal(2)}>
-            <ProjectsIcon src={Icon2} />
-            <ProjectsH2>Previous portfolio</ProjectsH2>
-            <ProjectsP><FaHtml5 /><FaCss3 /><FaJsSquare /></ProjectsP>
-          </ProjectsCard>
-        </ProjectBtn>
-        <ProjectBtn>
-          <ProjectsCard onClick={() => openModal(3)}>
-            <ProjectsIcon src={Icon3} />
-            <ProjectsH2>Validation Helper</ProjectsH2>
-            <ProjectsP><FaLinux /><SiApache /><SiMysql /><SiPhp /></ProjectsP>
-          </ProjectsCard>
-        </ProjectBtn>
-        <ProjectBtn>
-          <ProjectsCard onClick={() => openModal(4)}>
-            <ProjectsIcon src={Icon4} />
-            <ProjectsH2>CV Generator</ProjectsH2>
-            <ProjectsP><SiFlask /><SiNginx /><SiDocker /><img src={Latex} style={{height: 20, width: 50}} alt='latex logo'/></ProjectsP>
-          </ProjectsCard>
-        </ProjectBtn>
-      </ProjectsWrapper>
-      <Modal isOpen={modal}
-        onRequestClose={closeModal}
-        style={customStyles}
-        onAfterOpen={afterModalOpen}
-        onAfterClose={afterModalClose}
-        closeTimeoutMS={1000}
-      >
-        {modalScreen === 1 && 
-          <ProjectModal {...modalLog} />
-        }
-        {modalScreen === 2 &&
-          <ProjectModal {...modalPrevPort} />
-        }
-        {modalScreen === 3 &&
-          <ProjectModal {...modalValidation} />
-        }
-        {modalScreen === 4 &&
-          <ProjectModal {...modalCvGen} />
-        }
-        </Modal>
-    </ProjectsContainer>
+    <>
+      <ProjectsContainer id='projects'>
+        <ProjectsWrapper>
+          <Topline>Personal Projects</Topline>
+          <ProjectsContent>
+            <ProjectBtn >
+              <ProjectsCard onClick={() => openModal(1)}>
+                <ProjectsIcon src={Icon1} />
+                <ProjectsH2>Log App</ProjectsH2>
+                <ProjectsP><DiMongodb /><SiExpress /><FaReact /><FaNodeJs /></ProjectsP>
+              </ProjectsCard>
+            </ProjectBtn>
+            <ProjectBtn >
+              <ProjectsCard onClick={() => openModal(2)}>
+                <ProjectsIcon src={Icon2} />
+                <ProjectsH2>Previous portfolio</ProjectsH2>
+                <ProjectsP><FaHtml5 /><FaCss3 /><FaJsSquare /></ProjectsP>
+              </ProjectsCard>
+            </ProjectBtn>
+            <ProjectBtn>
+              <ProjectsCard onClick={() => openModal(3)}>
+                <ProjectsIcon src={Icon3} />
+                <ProjectsH2>Validation Helper</ProjectsH2>
+                <ProjectsP><FaLinux /><SiApache /><SiMysql /><SiPhp /></ProjectsP>
+              </ProjectsCard>
+            </ProjectBtn>
+            <ProjectBtn>
+              <ProjectsCard onClick={() => openModal(4)}>
+                <ProjectsIcon src={Icon4} />
+                <ProjectsH2>CV Generator</ProjectsH2>
+                <ProjectsP><SiFlask /><SiNginx /><SiDocker /><img src={Latex} style={{height: 20, width: 50}} alt='latex logo'/></ProjectsP>
+              </ProjectsCard>
+            </ProjectBtn>
+          </ProjectsContent>
+        </ProjectsWrapper>
+
+
+        {/*<ProjectsH1>Personal Projects</ProjectsH1>*/}
+        <Modal id='themodal' isOpen={modal}
+          onRequestClose={closeModal}
+          style={customStyles}
+          onAfterOpen={afterModalOpen}
+          onAfterClose={afterModalClose}
+          closeTimeoutMS={1000}
+        >
+          {modalScreen === 1 && 
+            <ProjectModal {...modalLog} closeModal={closeModal} />
+          }
+          {modalScreen === 2 &&
+            <ProjectModal {...modalPrevPort} closeModal={closeModal} />
+          }
+          {modalScreen === 3 &&
+            <ProjectModal {...modalValidation} closeModal={closeModal} />
+          }
+          {modalScreen === 4 &&
+            <ProjectModal {...modalCvGen} closeModal={closeModal} />
+          }
+          </Modal>
+      </ProjectsContainer>
+    </>
   )
 }
 
