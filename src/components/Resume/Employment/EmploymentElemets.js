@@ -15,8 +15,7 @@ export const EmploymentCard = styled.div`
   grid-template-columns: 1fr 1.5fr 1.5fr;
   width: 60vw;
   min-width: 150px;
-  background: #01bf71;
-  border: 3px solid #01bf71;
+  background: rgba(1, 191, 113, 0.6);
   border-radius: 1px 20px 1px;
   padding: 10px;
 

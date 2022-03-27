@@ -25,7 +25,7 @@ export const Button = styled(Link)`
 `
 export const ButtonA = styled.a`
   border-radius: 50px;
-  background: ${({primary}) => (primary ? '#01bf71' : '#010606')};
+  background: ${({primary}) => (primary ? '#01bf71' : 'rgba(1, 191, 113, 0.6)')};
   white-space: nowrap;
   padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
   color: ${({dark}) => (dark ? '#010606' : '#fff')};
@@ -38,6 +38,7 @@ export const ButtonA = styled.a`
   align-items: center;
   transition: all 0.2s ease-in-out;
   opacity: 50%;
+  text-decoration: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;

@@ -9,7 +9,7 @@ const Certificate = ({certificateTitle, certificateDates, certificateLink, light
         <CertificateCard>
           <CertificateDates lightText={lightText}>{certificateDates}</CertificateDates>
           <CertificateTitle lightText={lightText}>{certificateTitle}</CertificateTitle>
-          <CertificateLink href={certificateLink} target='_blank' rel='noreferrer noopener'>Certificate</CertificateLink>
+          <CertificateLink href={certificateLink} target='_blank' rel='noreferrer noopener'>View Certificate</CertificateLink>
         </CertificateCard>
       </CertificateWrapper>
     </>

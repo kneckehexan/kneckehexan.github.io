@@ -96,6 +96,7 @@ export const HeroContact = styled.div`
 export const HeroContactItem = styled.a`
   text-decoration: none;
   font-size: 36px;
+  transition: transform 0.2s ease-in-out;
 
   &:link {
     color: #fff;
@@ -108,7 +109,6 @@ export const HeroContactItem = styled.a`
   &:hover{
     color: #fff;
     transform: scale(1.2);
-    transition: transform 0.2s ease-in-out;
   }
 
   &:active{

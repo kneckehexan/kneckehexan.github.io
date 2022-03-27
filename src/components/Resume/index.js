@@ -7,7 +7,9 @@ import Assignment from './Assignments'
 import { ass1, ass2, ass3, ass4, ass5, ass6 } from './Assignments/Data'
 import Certificate from './Certificates'
 import { cer1, cer2, cer3, cer4, cer5, cer6, cer7, cer8, cer9, cer10, cer11 } from './Certificates/Data'
-import {ResumeContainer, ResumeWrapper, ResumeTopLine, ResumeSection, ResumeSectionTitle, ResumeItems} from './ResumeElements'
+import {ResumeContainer, ResumeWrapper, ResumeTopLine, ResumeSection, ResumeSectionTitle, ResumeItems, ResumeBtn} from './ResumeElements'
+import { ButtonA } from '../ButtonElements'
+import pdfcv from '../../files/PhilipTunbjer_CV_ENG_extended.pdf'
 
 const Resume = () => {
 
@@ -62,7 +64,7 @@ const Resume = () => {
             </ResumeItems>
           </ResumeSection>
           <ResumeSection>
-            <ResumeSectionTitle onClick={() => toggleSection('resume-ass')}>Assignments</ResumeSectionTitle>
+            <ResumeSectionTitle onClick={() => toggleSection('resume-ass')}>Work Experience</ResumeSectionTitle>
             <ResumeItems id='resume-ass' vis={showAss}>
               <Assignment {...ass6}/>
               <Assignment {...ass5}/>
@@ -88,6 +90,9 @@ const Resume = () => {
               <Certificate {...cer11}/>
             </ResumeItems>
           </ResumeSection>
+          <ResumeBtn>
+            <ButtonA download='Philip_Tunbjer_CV.pdf' href={pdfcv} primary={false} big={true} dark={true} >Download PDF</ButtonA>
+          </ResumeBtn>
         </ResumeWrapper>
       </ResumeContainer>
     </>

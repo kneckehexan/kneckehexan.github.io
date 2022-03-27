@@ -19,9 +19,9 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Philip Tunbjer</HeroH1>
-        <HeroP>Engineer | Project Manager | Likes Programming</HeroP>
+        <HeroP>Engineer | Project Manager | Programming</HeroP>
         <HeroContact>
-          <HeroContactItem href='mailto:philip.tunbjer@gmail.com' target='_blank' rel='noreferrer noopener'><FaEnvelope/></HeroContactItem>
+          <HeroContactItem href='mailto:tunbjerp@gmail.com' target='_blank' rel='noreferrer noopener'><FaEnvelope/></HeroContactItem>
           <HeroContactItem href='https://www.linkedin.com/in/philiptunbjer' target='_blank' rel='noreferrer noopener'><FaLinkedin/></HeroContactItem>
           <HeroContactItem href='https://github.com/kneckehexan/' target='_blank' rel='noreferrer noopener'><FaGithub/></HeroContactItem>
         </HeroContact>

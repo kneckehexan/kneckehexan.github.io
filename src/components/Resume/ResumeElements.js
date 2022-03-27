@@ -14,7 +14,7 @@ export const ResumeWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  padding: 0 34px;
   flex-direction: column;
 `
 
@@ -37,6 +37,7 @@ export const ResumeSection = styled.section`
 
 export const ResumeSectionTitle = styled.h2`
   border-top: 3px solid #01bf71;
+  border-radius: 5px;
   text-transform: uppercase;
   font-size: 24px;
   cursor: pointer;
@@ -54,4 +55,11 @@ export const ResumeItems = styled.div`
 const showResumeSection = () => keyframes`
   0% { opacity: 0; }
   100% { opacity: 1; }
+`
+
+export const ResumeBtn = styled.div`
+  margin-top: 30px;
+  min-width: 70px;
+  margin-right: auto;
+  margin-left: auto;
 `
