@@ -9,7 +9,7 @@ export const ass1 = {
 export const ass2 = {
   assignmentTitle: 'Design Engineer',
   assignmentDates: '2014',
-  assignmentClient: 'Studsvid Nuclear AB, via PRC Engineering AB',
+  assignmentClient: 'Studsvik Nuclear AB, via PRC Engineering AB',
   assignmentDescription: 'Produce an isometry of a new sewer system using Plant 3D.',
   lightText: false
 }

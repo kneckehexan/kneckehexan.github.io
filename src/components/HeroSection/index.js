@@ -19,7 +19,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Philip Tunbjer</HeroH1>
-        <HeroP>Engineer | Project Manager | Programming</HeroP>
+        <HeroP>Engineer | Project Manager | Programmer</HeroP>
         <HeroContact>
           <HeroContactItem href='mailto:tunbjerp@gmail.com' target='_blank' rel='noreferrer noopener'><FaEnvelope/></HeroContactItem>
           <HeroContactItem href='https://www.linkedin.com/in/philiptunbjer' target='_blank' rel='noreferrer noopener'><FaLinkedin/></HeroContactItem>
