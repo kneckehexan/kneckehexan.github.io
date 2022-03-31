@@ -28,7 +28,7 @@ const Footer = () => {
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to='/' onClick={toggleHome}>PT</SocialLogo>
-              <WebsiteRights>PT &copy; {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+              <WebsiteRights>PT {new Date().getFullYear()} </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink href='https://www.linkedin.com/in/philiptunbjer' target='_blank' rel='noreferrer noopener'><FaLinkedin /></SocialIconLink>
                 <SocialIconLink href='https://github.com/kneckehexan/' target='_blank' rel='noreferrer noopener'><FaGithub /></SocialIconLink>
