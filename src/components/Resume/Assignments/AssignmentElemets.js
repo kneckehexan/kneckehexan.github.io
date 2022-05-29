@@ -26,7 +26,6 @@ export const AssignmentCard = styled.div`
       "date client"
       "description description";
     grid-template-columns: 1fr 3fr;
-    width: calc(100vw - 3rem);
   }
 `
 
@@ -74,6 +73,7 @@ export const AssignmentDescription = styled.p`
   font-size: 16px;
   font-weight: normal;
   color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+  border-top: 1px solid black;
 
   @media screen and (max-width: 768px) {
     font-size: 14px;

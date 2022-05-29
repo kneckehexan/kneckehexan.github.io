@@ -24,7 +24,7 @@ export const EmploymentCard = styled.div`
       "date title"
       "date description";
     grid-template-columns: 1fr 3fr;
-    width: calc(100vw - 3rem);
+    //width: calc(100% - 3rem);
   }
 `
 

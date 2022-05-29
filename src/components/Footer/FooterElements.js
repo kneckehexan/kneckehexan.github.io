@@ -6,12 +6,13 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterWrapper = styled.div`
-  padding: 48px 24px;
+  padding: 48px 34px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1100px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 `
 
@@ -19,7 +20,7 @@ export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-wdidth: 820px) {
+  @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
 `

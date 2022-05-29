@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
   align-items: center;
   padding: 0 30px;
   height: 109vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   z-index: 1;
   /*margin-top: -10px;*/
@@ -21,6 +21,7 @@ export const HeroContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100%;
     background: linear-gradient(180deg, rgba(0,0,0,0.2), 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
     z-index: 2;
   }
@@ -47,6 +48,7 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
   z-index: 3;
+  width: 100%;
   max-width: 1200px;
   position: absolute;
   padding: 8px 24px;
@@ -89,7 +91,7 @@ export const HeroContact = styled.div`
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
-  width: 400px;
+  min-width: 280px;
   height: 20px;
   color: #fff;
 `

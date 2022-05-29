@@ -6,6 +6,7 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
+  max-width: 1200px;
   height: 100%;
   background: #0d0d0d;
   display: grid;
@@ -23,8 +24,8 @@ export const CloseIcon = styled(FaTimes)`
 
 export const Icon = styled.div`
   position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
+  top: 2.2rem;
+  right: 2.5rem;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;

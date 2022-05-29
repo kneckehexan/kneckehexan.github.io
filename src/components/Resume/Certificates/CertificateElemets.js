@@ -11,17 +11,13 @@ export const CertificateCard = styled.div`
   display: grid;
   grid-template-areas:
     "link title";
-  grid-column-gap: 20px;
+  grid-column-gap: 10px;
   grid-template-columns: 1fr 3fr;
   width: 60vw;
   min-width: 150px;
   background: rgba(1, 191, 113, 0.6);
   border-radius: 1px 20px 1px;
   padding: 10px;
-
-  @media screen and (max-width: 768px) {
-    width: calc(100vw - 3rem);
-  }
 `
 
 export const CertificateTitle = styled.h4`
@@ -30,17 +26,21 @@ export const CertificateTitle = styled.h4`
   font-weight: 600;
   color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 14px;
   }
 `
 
 export const CertificateLink = styled.a`
   grid-area: link;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
   color: #010606;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 `
 
 export const CertificateDates = styled.div`
@@ -50,6 +50,6 @@ export const CertificateDates = styled.div`
   color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
   @media screen and (max-width: 480px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 `

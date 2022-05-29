@@ -4,10 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
   background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
-  /*height: 80px;*/
   height: 9vh;
-  /*margin-top: -80px;*/
-  /*margin-top: -9vh;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,22 +13,17 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
   transition: all 0.8s ease-in-out;
-  /**
-  @media screen and (max-width: 960px) {
-    transition: all 0.8s ease-in-out;
-  }
-  */
 `
 
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: flex-start;
-  /*height: 80px;*/
   height: 9vh;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1200px;
+  padding: 0 34px;
+  max-width: 1200px;
 `
 
 export const NavLogo = styled(LinkR)`
@@ -41,25 +33,11 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  //margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 `
 
-//export const NavLink = styled(Link)`
-//  color: #fff;
-//  display: flex;
-//  align-items: center;
-//  text-decoration: none;
-//  padding: 0 1rem;
-//  height: 100%;
-//  curson: pointer;
-//
-//  &.active {
-//    color: #15cdfc;
-//  }
-//`
-//
 export const MobileIcon = styled.div`
   display: none;
 
@@ -80,7 +58,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  //margin-right: -22px;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -91,17 +69,6 @@ export const NavItem = styled.li`
   height: 80px;
 `
 
-
-//export const NavBtn = styled.nav`
-//  display: flex;
-//  align-items: center;
-//  margin-right: 24px;
-//
-//  @media screen and (max-width: 768px) {
-//    display: none;
-//  }
-//`
-//
 export const NavLinks = styled(LinkS)`
   color: #fff;
   display: flex;

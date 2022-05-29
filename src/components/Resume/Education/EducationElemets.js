@@ -24,7 +24,6 @@ export const EducationCard = styled.div`
       "date title"
       "date description";
     grid-template-columns: 1fr 3fr;
-    width: calc(100vw - 3rem);
   }
 `
 

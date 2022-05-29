@@ -13,7 +13,10 @@
 }*/
 
 body {
-  background-color: #eafee8;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   /*background-color: dimgray;*/
 }
 
