@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: 'About',
   headLine: 'Project Manager, Design Engineer',
-  description: 'Currently working as a senior Life Science consultant at an employee owned company in Stockholm, Sweden, founded in 1943.',
+  description: 'Currently working as a senior Life Science consultant at an employee owned company in Stockholm, Sweden. Social and cooperative person that is highly adaptable, thanks in part to having traveled and met many different people and acted in various environments. Likes exploring new challanges, be it through studies or professionally. I like to be organized and find efficient ways to solve problems.',
   buttonLabel: '',
   ahref: false,
   target: '',
