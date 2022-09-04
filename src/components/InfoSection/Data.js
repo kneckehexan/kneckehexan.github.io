@@ -46,7 +46,7 @@ export const homeObjThree = {
   description: 'Have I peaked your interest? Feel free to contact me.',
   buttonLabel: 'Contact',
   ahref: true,
-  target: 'mailto:tunbjerp@gmail.com',
+  target: 'mailto:phitu1@duck.com',
   imgStart: false,
   // eslint-disable-next-line no-undef
   img: require('../../img/svg-email.svg').default,
