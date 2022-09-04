@@ -21,7 +21,7 @@ const HeroSection = () => {
         <HeroH1>Philip Tunbjer</HeroH1>
         <HeroP>Engineer | Project Manager | Programmer</HeroP>
         <HeroContact>
-          <HeroContactItem href='mailto:tunbjerp@gmail.com' target='_blank' rel='noreferrer noopener'><FaEnvelope/></HeroContactItem>
+          <HeroContactItem href='mailto:phitu1@duck.com' target='_blank' rel='noreferrer noopener'><FaEnvelope/></HeroContactItem>
           <HeroContactItem href='https://www.linkedin.com/in/philiptunbjer' target='_blank' rel='noreferrer noopener'><FaLinkedin/></HeroContactItem>
           <HeroContactItem href='https://github.com/kneckehexan/' target='_blank' rel='noreferrer noopener'><FaGithub/></HeroContactItem>
         </HeroContact>
