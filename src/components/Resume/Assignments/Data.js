@@ -47,9 +47,9 @@ export const ass6 = {
 }
 
 export const ass7 = {
-  assignmentTitle: '',
-  assignmentDates: '20',
-  assignmentClient: '',
-  assignmentDescription: '',
+  assignmentTitle: 'Project Manager',
+  assignmentDates: '2022',
+  assignmentClient: 'Octapharma Sweden AB',
+  assignmentDescription: 'Manage the installation of a new distribution line for a part of the production. Involving budget management, time planning, organizing various tasks for project members and following up on the progress.',
   lightText: false
 }
