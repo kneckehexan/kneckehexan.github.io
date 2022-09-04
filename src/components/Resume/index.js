@@ -6,10 +6,12 @@ import { emp1, emp2, emp3, emp4, emp5 } from './Employment/Data'
 import Assignment from './Assignments'
 import { ass1, ass2, ass3, ass4, ass5, ass6, ass7 } from './Assignments/Data'
 import Certificate from './Certificates'
-import { cer1, cer2, cer3, cer4, cer5, cer6, cer7, cer8, cer9, cer10, cer11 } from './Certificates/Data'
+import { cer1, cer2, cer3, cer4, cer5, cer6, cer7, cer8, cer9, cer10, cer11, cer12, cer13 } from './Certificates/Data'
 import {ResumeContainer, ResumeWrapper, ResumeTopLine, ResumeSection, ResumeSectionTitle, ResumeItems, ResumeBtn} from './ResumeElements'
 import { ButtonA } from '../ButtonElements'
 import pdfcv from '../../files/PhilipTunbjer_CV_ENG_extended.pdf'
+import pdfGmpBas from '../../files/GMPBascertificate.pdf'
+import pdfGmpIntro from '../../files/GMPBascertificate.pdf'
 
 const Resume = () => {
 
@@ -89,6 +91,8 @@ const Resume = () => {
               <Certificate {...cer9}/>
               <Certificate {...cer10}/>
               <Certificate {...cer11}/>
+              <Certificate {...cer12} certificateLink={pdfGmpBas}/>
+              <Certificate {...cer13} certificateLink={pdfGmpIntro}/>
             </ResumeItems>
           </ResumeSection>
           <ResumeBtn>
