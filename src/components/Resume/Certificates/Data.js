@@ -1,3 +1,7 @@
+import pdfGmpBas from '../../../files/GMPBascertificate.pdf'
+import pdfGmpIntro from '../../../files/GMPBascertificate.pdf'
+
+
 export const cer1 = {
   certificateTitle: 'Responsive Web Design',
   certificateDates: '',
@@ -72,5 +76,19 @@ export const cer11 = {
   certificateTitle: 'CS50x',
   certificateDates: '',
   certificateLink: 'https://cs50.harvard.edu/certificates/9ad2c518-f268-46d3-bec0-4bc159616749',
+  lightText: false
+}
+
+export const cer12 = {
+  certificateTitle: 'GMP Bas',
+  certificateDates: '',
+  certificateLink: {pdfGmpBas},
+  lightText: false
+}
+
+export const cer13 = {
+  certificateTitle: 'GMP Intro',
+  certificateDates: '',
+  certificateLink: {pdfGmpIntro},
   lightText: false
 }
