@@ -11,7 +11,7 @@ import {ResumeContainer, ResumeWrapper, ResumeTopLine, ResumeSection, ResumeSect
 import { ButtonA } from '../ButtonElements'
 import pdfcv from '../../files/PhilipTunbjer_CV_ENG_extended.pdf'
 import pdfGmpBas from '../../files/GMPBascertificate.pdf'
-import pdfGmpIntro from '../../files/GMPBascertificate.pdf'
+import pdfGmpIntro from '../../files/GMPcertificate.pdf'
 
 const Resume = () => {
 
