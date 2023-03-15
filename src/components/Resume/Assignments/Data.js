@@ -49,7 +49,7 @@ export const ass6 = {
 export const ass7 = {
   assignmentTitle: 'Project Manager',
   assignmentDates: '2022',
-  assignmentClient: 'Octapharma Sweden AB',
+  assignmentClient: 'Octapharma Sweden AB, via Bjerking AB',
   assignmentDescription: 'Manage the installation of a new distribution line for a part of the production. Involving budget management, time planning, organizing various tasks for project members and following up on the progress.',
   lightText: false
 }
@@ -57,7 +57,7 @@ export const ass7 = {
 export const ass8 = {
   assignmentTitle: 'Part Project Manager',
   assignmentDates: '2022',
-  assignmentClient: 'Cytiva Sweden AB',
-  assignmentDescription: 'Manage the Basic DEsign development phase for process media within a larger project. The project encompasses the expansion of Cytiva\'s Custom Bioprocess Solutions (CBS) department.',
+  assignmentClient: 'Cytiva Sweden AB, via Bjerking AB',
+  assignmentDescription: 'Manage the Basic Design development phase for process media within a larger project. The project encompasses the expansion of Cytiva\'s Custom Bioprocess Solutions (CBS) department.',
   lightText: false
 }
