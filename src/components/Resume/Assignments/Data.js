@@ -61,3 +61,11 @@ export const ass8 = {
   assignmentDescription: 'Manage the Basic Design development phase for process media within a larger project. The project encompasses the expansion of Cytiva\'s Custom Bioprocess Solutions (CBS) department.',
   lightText: false
 }
+
+export const ass9 = {
+  assignmentTitle: 'Installation Lead',
+  assignmentDates: '2023',
+  assignmentClient: 'Galderma Nordic AB, via Bjerking AB',
+  assignmentDescription: 'Manage the installation process of equipment and internal piping in and around clean rooms.',
+  lightText: false
+}
