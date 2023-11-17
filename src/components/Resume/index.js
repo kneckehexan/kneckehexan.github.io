@@ -9,7 +9,7 @@ import Certificate from './Certificates'
 import { cer1, cer2, cer3, cer4, cer5, cer6, cer7, cer8, cer9, cer10, cer11, cer12, cer13 } from './Certificates/Data'
 import {ResumeContainer, ResumeWrapper, ResumeTopLine, ResumeSection, ResumeSectionTitle, ResumeItems, ResumeBtn} from './ResumeElements'
 import { ButtonA } from '../ButtonElements'
-import pdfcv from '../../files/PhilipTunbjer_CV_ENG_extended.pdf'
+import pdfcv from '../../files/PhilipTunbjer_CV_ENG_short.pdf'
 import pdfGmpBas from '../../files/GMPBascertificate.pdf'
 import pdfGmpIntro from '../../files/GMPcertificate.pdf'
 
@@ -44,6 +44,9 @@ const Resume = () => {
       <ResumeContainer lightBg={true} id='resume'>
         <ResumeWrapper>
           <ResumeTopLine>Resumé</ResumeTopLine>
+          <ResumeSection>
+            <a href="https://cv.tunbjer.com" target='_blank' rel='noopener noreferrer'>New and improved</a>
+          </ResumeSection>
           <ResumeSection>
             <ResumeSectionTitle onClick={() => toggleSection('resume-edu')}>Education</ResumeSectionTitle>
             <ResumeItems id='resume-edu' vis={showEdu}>

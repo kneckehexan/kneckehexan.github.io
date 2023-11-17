@@ -66,6 +66,6 @@ export const ass9 = {
   assignmentTitle: 'Installation Lead',
   assignmentDates: '2023',
   assignmentClient: 'Galderma Nordic AB, via Bjerking AB',
-  assignmentDescription: 'Manage the installation process of equipment and internal piping in and around clean rooms.',
+  assignmentDescription: 'Manage the installation of process equipment and internal piping in and around clean rooms.',
   lightText: false
 }
